@@ -6,6 +6,6 @@ For sthis project I used __HTML, CSS, SCSS and some JS__.
 
 This site is responsive. \
 Desktop: \
-<img src="images/Desktop.png" style="width: 50%" title="Desktop size" />
+<img src="images/Desktop.png" style="width: 50%; @media (max-width: 991px) {width: 100%}" title="Desktop size" /> \
 Mobile: \
-<img src="images/Mobile.png" style="width: 25%" title="Mesktop size" />
+<center><img src="images/Mobile.png" style="width: 25%; @media (max-width: 991px) {width: 50%}" title="Mesktop size" /></center>
